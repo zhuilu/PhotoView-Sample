@@ -53,8 +53,8 @@ public class SimpleSampleActivity extends Activity {
 
     private Matrix mCurrentDisplayMatrix = null;
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
